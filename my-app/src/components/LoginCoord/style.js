@@ -11,18 +11,18 @@ const styles = StyleSheet.create({
     Imagem:{
         width: 100,
         height: 100,
-        marginTop: 60,
+        marginTop: 80,
     },
     Label:{
         alignItems: "center",
-        marginTop: 20,
+        marginTop: 55,
         backgroundColor: '#1D976C',
         borderRadius: 7,
         width: '90%',
-        height:'',
     },
     CoordText: {
         paddingTop: 20,
+    
         fontSize: 25,
         color: '#ffffff',
         letterSpacing: 3,
@@ -49,7 +49,7 @@ const styles = StyleSheet.create({
         backgroundColor: '#00FF80',
     },  
     input:{
-        width: 250,
+        width: "72%",
         borderTopRightRadius: 4,
         borderBottomRightRadius: 4,
         fontSize: 20,
@@ -64,34 +64,31 @@ const styles = StyleSheet.create({
         justifyContent: "center",
         width: "88%",
         height: 63,
-        paddingLeft: 130,
-        paddingRight: 130,
         backgroundColor: "#000000",
         marginTop: 29,
         marginBottom: 30,
     },
     textButtonLogIn:{
         fontSize: 24,
-        paddingLeft: 35,
-        paddingRight: 35,
         fontWeight: "400",
         color: "#2DE58D",
+    },
+    textButtonUser:{
+        fontSize: 15,
+        fontWeight: "300",
+        color: "#FFFFFF",
     },
     buttonUser:{
         borderRadius: 4,
         alignItems: "center",
         justifyContent: "center",
-        width: "88%",
+        width: "60%",
         height: 63,
-        paddingLeft: 100,
-        paddingRight: 100,
         backgroundColor: "#000000",
-        marginTop: 29,
+        marginTop: 79,
         marginBottom: 30,
     },
 
-
 });
-
 
 export default styles

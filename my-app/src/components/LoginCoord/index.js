@@ -6,7 +6,7 @@ import {View, Text, TextInput, TouchableOpacity, Image} from "react-native";
 export default function LoginCoord(){
 
     return(
-        <View>
+        <View style={styles.View}>
             <View style={styles.Container}>
                 <Image style={styles.Imagem} source={require('./fagammon.png')}/>
             </View>
@@ -26,7 +26,7 @@ export default function LoginCoord(){
                         </TouchableOpacity>
                     </View>
                     <TouchableOpacity title="CoordLogin" style={styles.buttonUser}>
-                            <Text style={styles.textButtonLogIn}>Entrar</Text>
+                            <Text style={styles.textButtonUser}>Entrar como Aluno</Text>
                     </TouchableOpacity>
                 </View>
         </View>
