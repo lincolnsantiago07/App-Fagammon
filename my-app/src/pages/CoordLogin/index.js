@@ -1,5 +1,5 @@
 import React from "react";
-import { View } from "react-native"
+import { View} from "react-native"
 import { LinearGradient} from 'expo-linear-gradient';
 import LoginCoord from "../../components/LoginCoord";
 
@@ -12,3 +12,4 @@ export default function Coordenador(){
             </View>   
     );
 }
+

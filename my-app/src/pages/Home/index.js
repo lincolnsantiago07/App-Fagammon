@@ -5,6 +5,7 @@ import Login from "../../components/Login"
 import Imagem from "../../components/Image"
 import Title from "../../components/Title"
 
+
 export default function Home(){
     return(
             <View>
@@ -16,3 +17,4 @@ export default function Home(){
             </View> 
     );
 }
+

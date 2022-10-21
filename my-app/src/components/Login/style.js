@@ -39,6 +39,16 @@ const styles = StyleSheet.create({
         height: 58,
         margin: 12,
         paddingLeft: 20,
+
+        shadowColor: "#000",
+        shadowOffset: {
+            width: 0,
+            height: 5,
+        },
+        shadowOpacity: 0.36,
+        shadowRadius: 6.68,
+    
+        elevation: 7,
     },
     buttonLogin: {
         borderRadius: 4,
@@ -49,7 +59,17 @@ const styles = StyleSheet.create({
         paddingLeft: 130,
         paddingRight: 130,
         backgroundColor: "#000000",
-        marginTop: 78,
+        marginTop: 40,
+
+        shadowColor: "#000",
+        shadowOffset: {
+            width: 0,
+            height: 5,
+        },
+        shadowOpacity: 0.36,
+        shadowRadius: 6.68,
+    
+        elevation: 11,
     },
     textButtonLogin:{
         fontSize: 20,
@@ -63,6 +83,16 @@ const styles = StyleSheet.create({
         height: 63,
         backgroundColor: "#ffffff",
         marginTop: 66,
+
+        shadowColor: "#000",
+        shadowOffset: {
+            width: 0,
+            height: 5,
+        },
+        shadowOpacity: 0.36,
+        shadowRadius: 6.68,
+    
+        elevation: 11,
     },
     textButtonCoord:{
         fontSize: 15,
